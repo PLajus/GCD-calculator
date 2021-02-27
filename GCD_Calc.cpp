@@ -154,15 +154,10 @@ std::string GCD(std::string s1, std::string s2)
 
 int main()
 {
-    int T = 0;
     std::string x, y = "";
 
-    std::cin >> T;
-    for (int i = 0; i < T; i++)
-    {
-        std::cin >> x >> y;
-        std::cout << GCD(x, y) << std::endl;
-    }
+    std::cin >> x >> y;
+    std::cout << GCD(x, y) << std::endl;
 
     return 0;
 }
